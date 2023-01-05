@@ -1,5 +1,5 @@
 // React
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 // React Router DOM
 import { Route, Routes } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
@@ -55,6 +55,10 @@ function App() {
   const [nameInput, setNameInput] = useState('')
   const [inquiryInput, setInquiryInput] = useState('')
 
+  // Ref
+  const inputRef = useRef()
+  const inquiryRef = useRef()
+
   // React Router DOM 
   const navigate = useNavigate()
 
@@ -66,6 +70,8 @@ function App() {
     } else if (inquiryInput === '') {
       alert('Please enter a valude inquiry')
     } else {
+      inputRef.current.value = ''
+      inquiryRef.current.value = ''
       await fetch('/postInquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -185,8 +191,8 @@ function App() {
                 <ResponsiveText>If you like what you see and would like to work together feel free to contact me here. My other contact info can be found in my Resume.</ResponsiveText>
               </SectionTextContainer>
               <ContactInputContainer>
-                <ContactInput placeholder='Name or Company' onChange={(e) => { setNameInput(e.target.value) }}></ContactInput>
-                <ContactField placeholder='Make sure to include contact info.' onChange={(e) => { setInquiryInput(e.target.value) }}></ContactField>
+                <ContactInput placeholder='Name or Company' ref={inputRef} onChange={(e) => { setNameInput(e.target.value) }}></ContactInput>
+                <ContactField placeholder='Make sure to include contact info.' ref={inquiryRef} onChange={(e) => { setInquiryInput(e.target.value) }}></ContactField>
                 <ContactSubmit onClick={postInquiry}>Submit</ContactSubmit>
               </ContactInputContainer>
             </ContactSection>
