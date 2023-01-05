@@ -66,7 +66,7 @@ function App() {
     } else if (inquiryInput === '') {
       alert('Please enter a valude inquiry')
     } else {
-      await fetch('http://localhost:3001/postInquiry', {
+      await fetch('/postInquiry', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
