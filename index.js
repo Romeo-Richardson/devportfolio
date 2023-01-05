@@ -13,7 +13,7 @@ const InquiryModel = require('./models/InquiryModel')
 const path = require('path')
 require('dotenv').config()
 
-mongoose.connect(MONGODB_URI || 'mongodb+srv://ZirrKing:65937675299041230290728123677583@cluster0.5r4pdz7.mongodb.net/wediary?retryWrites=true&w=majority')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://ZirrKing:65937675299041230290728123677583@cluster0.5r4pdz7.mongodb.net/wediary?retryWrites=true&w=majority')
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '/client/build')))
