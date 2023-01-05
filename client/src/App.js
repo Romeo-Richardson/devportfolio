@@ -225,7 +225,7 @@ function App() {
         <Hover onClick={() => { navigate('/') }}>Home</Hover>
         <Hover onClick={() => { navigate('/projects') }}>My Work</Hover>
         <CustomLink color={'purple'} href='https://1drv.ms/w/s!AteB6oDGc_2mgZoOjqqeqWwGbYNTKQ?e=7LbyB1'>Resume</CustomLink>
-        <CustomLink color={'purple'}>Source Code</CustomLink>
+        <CustomLink color={'purple'} href='https://github.com/Romeo-Richardson/devportfolio'>Source Code</CustomLink>
       </Footer>
     </>
   );
