@@ -13,5 +13,6 @@ position: relative;
     width: 250px;
     position: relative;
     left: 0px;
+    z-index: 1;
 }
 `
