@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContactSection = styled.button`
+export const ContactSection = styled.div`
 height: 500px;
 width: 1450px;
 position: relative;
@@ -9,7 +9,6 @@ overflow: hidden;
 display: flex;
 flex-direction: column;
 align-items: ${(props) => props.ai};
-border: none;
 
 @media screen and (max-width: 1450px) {
     width: 80vw;
@@ -22,6 +21,6 @@ border: none;
 }
 @media screen and (max-width: 560px) {
     width: 312px;
-    height: 710px;
+    height: 700px;
 }
 `

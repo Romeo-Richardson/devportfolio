@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContactSubmit = styled.div`
+export const ContactSubmit = styled.button`
 height: 30px;
 width: 75px;
 background-color: purple;
@@ -10,6 +10,7 @@ top: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
+border: none;
 &:hover {
     cursor: pointer;
 }
