@@ -6,6 +6,7 @@ height: 375px;
 position: relative;
 bottom: 50px;
 align-self: center;
+resize: none;
 
 @media screen and (max-width: 1450px) {
     width: 350px;
