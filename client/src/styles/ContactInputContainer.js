@@ -23,5 +23,6 @@ justify-content: space-between;
     right: 0px;
     position: relative;
     align-items: center;
+    height: 415px;
 }
 `
