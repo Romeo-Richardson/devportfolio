@@ -18,6 +18,5 @@ align-items: center;
     width: 258px;
     position: relative;
     right: 0px;
-    z-index: 1;
 }
 `
