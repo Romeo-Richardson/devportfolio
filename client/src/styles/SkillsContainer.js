@@ -25,7 +25,7 @@ top: 65px;
     position: relative;
 }
 @media screen and (max-width: 560px) {
-    height: 225px;
-    width: 300px;
+    height: 200px;
+    width: 275px;
 }
 `
