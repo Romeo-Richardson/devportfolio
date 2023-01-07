@@ -87,7 +87,7 @@ function App() {
   const projectData = [
     {
       projectName: 'A-List',
-      projectDetails: 'A Fullstack Todo CRUD app featuring a Custom API, using MERN, Nightmode using Redux and Styled Components, along with Optimistic Updates from React Query.',
+      projectDetails: 'A Fullstack To-do List CRUD app featuring a Custom API, using MERN, Nightmode using Redux and Styled Components, along with Optimistic Updates from React Query.',
       projectLink: 'https://alistportfolio.herokuapp.com/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/alist/blob/main/client/src/components/Main.js',
       projectImage: 'https://i.imgur.com/5TiNQpw.png'
