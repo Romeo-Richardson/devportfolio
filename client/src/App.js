@@ -86,6 +86,13 @@ function App() {
 
   const projectData = [
     {
+      projectName: 'Primitive eCommerce',
+      projectDetails: 'A Fullstack eCommerce site featuring real purchases using Stripe, fully responsive minimalist styling using Styled Components, a custom API for ratings and reviews with Optimistic Updates, alongside a fully featured Cart system using Redux.',
+      projectLink: 'https://primitive-ecommerce.herokuapp.com/',
+      projectSourceCode: 'https://github.com/Romeo-Richardson/primitive/tree/main/client/src',
+      projectImage: 'https://i.imgur.com/WOcOZxa.png'
+    },
+    {
       projectName: 'A-List',
       projectDetails: 'A Fullstack To-do List CRUD app featuring a Custom API, using MERN, Nightmode using Redux and Styled Components, along with Optimistic Updates from React Query.',
       projectLink: 'https://alistportfolio.herokuapp.com/',
