@@ -90,7 +90,7 @@ function App() {
       projectDetails: 'A Fullstack eCommerce site featuring real purchases using Stripe, fully responsive minimalist styling using Styled Components, a custom API for ratings and reviews with Optimistic Updates, alongside a fully featured Cart system using Redux.',
       projectLink: 'https://primitive-ecommerce.herokuapp.com/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/primitive/tree/main/client/src',
-      projectImage: 'https://i.imgur.com/WOcOZxa.png'
+      projectImage: 'https://i.imgur.com/WtqUBFN.png'
     },
     {
       projectName: 'A-List',
