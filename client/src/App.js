@@ -87,42 +87,42 @@ function App() {
   const projectData = [
     {
       projectName: 'Primitive',
-      projectDetails: 'A Fullstack eCommerce site featuring real purchases using Stripe, fully responsive minimalist styling using Styled Components, a custom API for ratings and reviews with Optimistic Updates, alongside a fully featured Cart system using Redux.',
+      projectDetails: 'A fully responsive Fullstack eCommerce site featuring a Custom API to handle all Product Data, real purchases using the Stripe API, blazing flast load speeds thanks to React Router DOM and React Query, fully functioning comments and a cart system using Redux.',
       projectLink: 'https://primitive-ecommerce.herokuapp.com/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/primitive/tree/main/client/src',
       projectImage: 'https://i.imgur.com/WtqUBFN.png'
     },
     {
       projectName: 'A-List',
-      projectDetails: 'A Fullstack To-do List CRUD app featuring a Custom API, using MERN, Nightmode using Redux and Styled Components, along with Optimistic Updates from React Query.',
+      projectDetails: 'A Fullstack To-do List CRUD app featuring a Custom API/Database, Nightmode using Redux, along with Optimistic Updates from React Query.',
       projectLink: 'https://alistportfolio.herokuapp.com/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/alist/blob/main/client/src/components/Main.js',
       projectImage: 'https://i.imgur.com/5TiNQpw.png'
     },
     {
       projectName: 'Giphy',
-      projectDetails: 'A simple app that searches and displays GIFs using the GIPHY API, and React',
+      projectDetails: 'A simple app that searches and displays GIFs using the GIPHY API, and React. This was my first React Project.',
       projectLink: 'https://romeo-test-e2958.web.app/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/API-Example',
       projectImage: 'https://i.imgur.com/Awpns7n.png'
     },
     {
       projectName: 'Expense Tracker',
-      projectDetails: 'An expense tracker that takes a weeks expenses, a weekly budget, then calcuates averages and accurately displays a graph based on expense relative to budget.',
+      projectDetails: 'An expense tracker that takes a weeks expenses, a weekly budget, then calcuates averages and accurately displays a graph based on expense relative to budget. Made with Vanilla JS, CSS and HTML.',
       projectLink: 'https://test-portfolio-4e563.web.app/Expense-Tracker/expense.html',
       projectSourceCode: 'https://github.com/Romeo-Richardson/Expense-Tracker',
       projectImage: 'https://i.imgur.com/3EQp5tv.png'
     },
     {
       projectName: 'Tip Calculator',
-      projectDetails: 'An app that takes in a price, a tip percantage, and the amount of people to split the final cost amongst and returns both the total cost and amount spent in tip per person.',
+      projectDetails: 'An app that takes in a price, a tip percantage, and the amount of people to split the final cost amongst and returns both the total cost and amount spent in tip per person. Made with Vanilla JS, CSS and HTML.',
       projectLink: 'https://test-portfolio-4e563.web.app/Tip-Calculator/calc.html',
       projectSourceCode: 'https://github.com/Romeo-Richardson/Tip-Calculator',
       projectImage: 'https://i.imgur.com/YeyTd5G.png'
     },
     {
       projectName: 'Survey',
-      projectDetails: 'A simple survey page that takes in a rating and displays it on the following page',
+      projectDetails: 'A simple survey page that takes in a rating and displays it on the following page. Made with Vanilla JS, CSS and HTML.',
       projectLink: 'https://test-portfolio-4e563.web.app/Survey-Example/Survey.html',
       projectSourceCode: 'https://github.com/Romeo-Richardson/Survey-Example',
       projectImage: 'https://i.imgur.com/cce0uZu.png'
