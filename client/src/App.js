@@ -154,7 +154,7 @@ function App() {
               <CustomHeader>ABOUT</CustomHeader>
               <Spacer></Spacer>
               <SectionTextContainer>
-                <ResponsiveText>Hello, my name is Romeo and I'm a Fullstack Web Developer. I've had a passion for Software Developement since Highschool, after two years of Project Exection my passion was reiginited and I've dedicated my time to honing the craft I've always loved.</ResponsiveText>
+                <ResponsiveText>Hello, my name is Romeo and I'm a Fullstack Software Developer based out of California. I've had a passion for Software Developement since Highschool, after two years of Project Exection I've decided to make a career doing what I love.</ResponsiveText>
               </SectionTextContainer>
               <HomePicContainer>
                 <img src={macbook} alt='Computer on a Tabletop'></img>
