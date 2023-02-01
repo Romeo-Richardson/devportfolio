@@ -94,7 +94,7 @@ function App() {
     },
     {
       projectName: 'A-List',
-      projectDetails: 'A Fullstack To-do List CRUD app featuring a Custom API/Database, Nightmode using Redux, along with Optimistic Updates from React Query.',
+      projectDetails: 'Fullstack Todo App, featuring a Custom API, Database, Nightmode, Login/Logout, Optimistic Updates, and CRUD functionality',
       projectLink: 'https://alistportfolio.herokuapp.com/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/alist/blob/main/client/src/components/Main.js',
       projectImage: 'https://i.imgur.com/5TiNQpw.png'
@@ -144,7 +144,7 @@ function App() {
         <NavbarButtonContainer>
           <NavbarButton onClick={() => { navigate('/') }}>Home</NavbarButton>
           <NavbarButton onClick={() => { navigate('/projects') }}>Projects</NavbarButton>
-          <NavbarButton><CustomLink href='https://1drv.ms/w/s!AteB6oDGc_2mgZoOjqqeqWwGbYNTKQ?e=7LbyB1'>Resume</CustomLink></NavbarButton>
+          <NavbarButton><CustomLink href='https://1drv.ms/w/s!AteB6oDGc_2mgZoULDo0BIdQZat-9g?e=bUTG87'>Resume</CustomLink></NavbarButton>
         </NavbarButtonContainer>
       </Navbar>
       <Routes>
@@ -154,7 +154,7 @@ function App() {
               <CustomHeader>ABOUT</CustomHeader>
               <Spacer></Spacer>
               <SectionTextContainer>
-                <ResponsiveText>Hello, my name is Romeo and I'm a Self-Taught Fullstack Web Developer. I've had a passion for coding since Highschool, after two years of Project Exection my passion was reiginited and I've dedicated my time to honing the craft I've always loved.</ResponsiveText>
+                <ResponsiveText>Hello, my name is Romeo and I'm a Fullstack Web Developer. I've had a passion for Software Developement since Highschool, after two years of Project Exection my passion was reiginited and I've dedicated my time to honing the craft I've always loved.</ResponsiveText>
               </SectionTextContainer>
               <HomePicContainer>
                 <img src={macbook} alt='Computer on a Tabletop'></img>
@@ -195,7 +195,7 @@ function App() {
               <CustomHeader>CONTACT ME</CustomHeader>
               <Spacer></Spacer>
               <SectionTextContainer>
-                <ResponsiveText>If you like what you see and would like to work together feel free to contact me here. My other contact info can be found in my Resume.</ResponsiveText>
+                <ResponsiveText>Messages sent here will be sent directly to my Database through a custom API, you can also email me at mrculatr101@outlook.com or call me at 209-621-4322. I look forward to working with you!</ResponsiveText>
               </SectionTextContainer>
               <ContactInputContainer>
                 <ContactInput placeholder='Name or Company' ref={inputRef} onChange={(e) => { setNameInput(e.target.value) }}></ContactInput>
