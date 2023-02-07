@@ -86,18 +86,18 @@ function App() {
 
   const projectData = [
     {
-      projectName: 'Primitive',
-      projectDetails: 'A fully responsive Fullstack eCommerce site featuring a Custom API to handle all Product Data, real purchases using the Stripe API, blazing flast load speeds thanks to React Router DOM and React Query, fully functioning comments and a cart system using Redux.',
-      projectLink: 'https://primitive-ecommerce.herokuapp.com/',
-      projectSourceCode: 'https://github.com/Romeo-Richardson/primitive/tree/main/client/src',
-      projectImage: 'https://i.imgur.com/WtqUBFN.png'
-    },
-    {
       projectName: 'A-List',
       projectDetails: 'Fullstack Todo App, featuring a Custom API, Database, Nightmode, Login/Logout, Optimistic Updates, and CRUD functionality',
       projectLink: 'https://alistportfolio.herokuapp.com/',
       projectSourceCode: 'https://github.com/Romeo-Richardson/alist/blob/main/client/src/components/Main.js',
       projectImage: 'https://i.imgur.com/5TiNQpw.png'
+    },
+    {
+      projectName: 'Primitive',
+      projectDetails: 'Minimal Styling, Fully responsive, Fullstack eCommerce site featuring a Custom API to handle all Product Data, real world purchases using the Stripe API, blazing flast load speeds thanks to React Router DOM and React Query, fully functioning comments and a cart system using Redux.',
+      projectLink: 'https://primitive-ecommerce.herokuapp.com/',
+      projectSourceCode: 'https://github.com/Romeo-Richardson/primitive/blob/main/client/src/components/ProductDetails.js',
+      projectImage: 'https://i.imgur.com/WtqUBFN.png'
     },
     {
       projectName: 'Giphy',
@@ -238,7 +238,7 @@ function App() {
         <Hover onClick={() => { navigate('/') }}>Home</Hover>
         <Hover onClick={() => { navigate('/projects') }}>My Work</Hover>
         <CustomLink color={'purple'} href='https://1drv.ms/w/s!AteB6oDGc_2mgZoOjqqeqWwGbYNTKQ?e=7LbyB1'>Resume</CustomLink>
-        <CustomLink color={'purple'} href='https://github.com/Romeo-Richardson/devportfolio'>Source Code</CustomLink>
+        <CustomLink color={'purple'} href='https://github.com/Romeo-Richardson/devportfolio/blob/main/client/src/App.js'>Source Code</CustomLink>
       </Footer>
     </>
   );
